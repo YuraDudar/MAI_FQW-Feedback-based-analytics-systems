@@ -1,0 +1,99 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==================== Virtual environments ====================
+venv/
+.venv/
+env/
+.env/
+
+# ==================== Environment & secrets ====================
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ==================== IDE ====================
+.idea/
+.vscode/
+*.iml
+*.suo
+.DS_Store
+Thumbs.db
+
+# ==================== Claude Code ====================
+.claude/
+
+# ==================== Node / Frontend ====================
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+.npm/
+.yarn/
+
+# ==================== Experiment results ====================
+klasteristion_pipline/results/embeddings_cache/
+klasteristion_pipline/results/plots/
+klasteristion_pipline/results/reports/
+klasteristion_pipline/results/models/
+
+# ==================== RAG / Qdrant storage ====================
+rag_pipline/results/exports/
+rag_pipline/results/logs/
+rag_pipline/results/qdrant_storage/
+rag_pipline/results/index_meta/
+
+# ==================== Parser results (scraped data) ====================
+review_parser/results/
+
+# ==================== Generic data & binary artifacts ====================
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+# ==================== ML model files ====================
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.gguf
+
+# ==================== Logs ====================
+*.log
+logs/
+
+# ==================== Docker volumes & infrastructure state ====================
+infrastructure/postgres/data/
+infrastructure/redis/data/
+infrastructure/qdrant/storage/
+
+# ==================== Misc ====================
+*.tmp
+*.bak
+.cache/
