@@ -1,0 +1,1 @@
+# parser_wb — entry-point package for the Wildberries review parser

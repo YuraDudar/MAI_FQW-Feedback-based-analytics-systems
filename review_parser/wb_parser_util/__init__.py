@@ -1,0 +1,1 @@
+# wb_parser_util — Wildberries review parser utilities

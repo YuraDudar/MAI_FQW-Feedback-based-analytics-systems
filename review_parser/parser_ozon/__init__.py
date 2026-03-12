@@ -1,0 +1,1 @@
+# parser_ozon — entry-point package for the Ozon review parser
